@@ -1,0 +1,19 @@
+body{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/259422c0-c399-4047-baf2-44bac5612ac1/8f14dfa2-54bd-4665-bfb1-4b5d92a92748/VE-es-20240819-POP_SIGNUP_TWO_WEEKS-perspective_WEB_6598675a-cf7e-45a7-9dc7-68a877c9ce96_large.jpg");
+    background-size: 100%;
+}
+.comienzo{
+    padding: 0 9.25rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.svg-netflix{
+    width: 100px;
+}
+.botones{
+    display: flex;
+}
