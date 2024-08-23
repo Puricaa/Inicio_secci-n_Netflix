@@ -1,19 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body{
     background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/259422c0-c399-4047-baf2-44bac5612ac1/8f14dfa2-54bd-4665-bfb1-4b5d92a92748/VE-es-20240819-POP_SIGNUP_TWO_WEEKS-perspective_WEB_6598675a-cf7e-45a7-9dc7-68a877c9ce96_large.jpg");
     background-size: 100%;
 }
-.comienzo{
-    padding: 0 9.25rem;
-}
+
+/* Header*/
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    padding:  0 9.25rem;
+    margin-top: 1.5rem;
 }
-.svg-netflix{
+svg{
     width: 50%;
+    color: white;
+    /* color: rgb(229, 9, 20); */
+    fill: currentColor;
+    display: block;
 }
 .botones{
     display: flex;
+}
+/* main */
+.main{
+    color: white;
+    padding: 0 9.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Titulo{
+    font-size: 4rem;
+    font-display: ;
 }
