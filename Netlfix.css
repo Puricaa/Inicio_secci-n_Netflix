@@ -1,30 +1,60 @@
-*{
+* {
     padding: 0;
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
-body{
+
+.hero {
     background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/259422c0-c399-4047-baf2-44bac5612ac1/8f14dfa2-54bd-4665-bfb1-4b5d92a92748/VE-es-20240819-POP_SIGNUP_TWO_WEEKS-perspective_WEB_6598675a-cf7e-45a7-9dc7-68a877c9ce96_large.jpg");
     background-size: 100%;
+    height: 100vh;
+}
+.fondo {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    z-index: 100;
 }
 
-/* Header*/
-header{
+/* nav*/
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:  0 9.25rem;
-    height: 100px;
+    padding: 15px 140px;
+    z-index: 200;
 }
-svg{
-    width: 50%;
-    color: white;
-    /* color: rgb(229, 9, 20); */
-    fill: currentColor;
-    display: block;
+.svg-netflix {
+    width: 14%;
+    fill: rgb(229, 9, 20);
+    z-index: 200;
 }
 .botones{
     display: flex;
+    align-items: center;
+    gap: 15px;
+    z-index: 200;
+}
+.lang {
+    display: flex;
+    padding: 10px 10px;
+    background-color: blue;
+    border:black ;
+}
+nav div button {
+    background-color: red;
+    color: white;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 5px;
+}
+nav div select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    text-decoration: none;
 }
 
 /* main */
@@ -36,12 +66,13 @@ svg{
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
-    gap: 20px;
+    gap: 50px;
 }
 
 /* section */
 .medio-camino{
     width: 60%;
+    z-index: 200;
 }
 .div-titulos{
     display: flex;
@@ -59,14 +90,46 @@ svg{
 
 /* article */
 .final{
+    width: 60%;
+    z-index: 200;
+}
+.form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60%;
+    gap: 20px;
 }
 .parrafo-ingreso{
     text-align: center;
 }
 .ingreso{
     display: flex;
+    gap: 15px;
+}
+
+
+/* Email */
+input{
+    background-color: rgba(0, 0, 0, 0.568);
+    border: none;
+    border-radius: 5px;
+    width: 450px;
+    height: 50px;
+}
+
+/* button */
+.comenzar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: red;
+}
+.svg{
+    width: 50px;
+    color: white;
+    fill: currentColor;
 }
