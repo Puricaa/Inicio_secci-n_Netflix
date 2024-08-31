@@ -8,10 +8,10 @@
 .hero {
     background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/259422c0-c399-4047-baf2-44bac5612ac1/8f14dfa2-54bd-4665-bfb1-4b5d92a92748/VE-es-20240819-POP_SIGNUP_TWO_WEEKS-perspective_WEB_6598675a-cf7e-45a7-9dc7-68a877c9ce96_large.jpg");
     background-size: 100%;
-    height: 100vh;
+    height: 90vh;
 }
 .fondo {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     position: absolute;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
@@ -37,25 +37,29 @@ nav {
     gap: 15px;
     z-index: 200;
 }
-.lang {
+/* .lang {
     display: flex;
     padding: 10px 10px;
-    background-color: blue;
-    border:black ;
-}
+    background-color: rgba(0, 0, 0, 0.568);
+    border-color: white ;
+} */
 nav div button {
     background-color: red;
     color: white;
-    padding: 10px 12px;
+    padding: 8px 15px;
     border: none;
     border-radius: 5px;
 }
 nav div select {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.568);
+    padding: 7px 15px;
+    border-radius: 5px;
     color: white;
-    border: none;
-    text-decoration: none;
 }
+option {
+    padding: 15px;
+}
+
 
 /* main */
 .main{
@@ -66,7 +70,7 @@ nav div select {
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
-    gap: 50px;
+    gap: 30px;
 }
 
 /* section */
@@ -82,10 +86,10 @@ nav div select {
     gap: 20px;
 }
 .Titulo{
-    font-size: 4.5rem;
+    font-size: 4rem;
 }
 .parrafo{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 /* article */
@@ -97,22 +101,27 @@ nav div select {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
 }
 .parrafo-ingreso{
     text-align: center;
 }
+
+
 .ingreso{
     display: flex;
-    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
-
-
 /* Email */
 input{
     background-color: rgba(0, 0, 0, 0.568);
-    border: none;
     border-radius: 5px;
+    border-color: white;
+    border-width: 1px;
+    padding-left: 15px;
+    color: white;
     width: 450px;
     height: 50px;
 }
@@ -123,13 +132,14 @@ input{
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-    width: 40%;
+    color: white;
+    width: 180px;
     height: 50px;
+    border: none;
     border-radius: 5px;
     background-color: red;
 }
 .svg{
-    width: 50px;
     color: white;
     fill: currentColor;
 }
