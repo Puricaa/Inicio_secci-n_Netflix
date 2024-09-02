@@ -1,25 +1,29 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: "Oswald", sans-serif;
+    /* font-weight: 700; */
 }
 
 
 .hero {
     background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/259422c0-c399-4047-baf2-44bac5612ac1/8f14dfa2-54bd-4665-bfb1-4b5d92a92748/VE-es-20240819-POP_SIGNUP_TWO_WEEKS-perspective_WEB_6598675a-cf7e-45a7-9dc7-68a877c9ce96_large.jpg");
     background-size: 100%;
-    height: 90vh;
+    height: 95vh;
 }
 .fondo {
-    height: 90vh;
+    height: 95vh;
     width: 100%;
     position: absolute;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.849) 0, rgba(0, 0, 0, 0.575) 60%, rgba(0, 0, 0, 0.849) 100%);
     z-index: 100;
 }
 
-/* nav*/
-nav {
+/* Header*/
+.header-spacing {
+    padding: 10px;
+}
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,22 +47,24 @@ nav {
     background-color: rgba(0, 0, 0, 0.568);
     border-color: white ;
 } */
-nav div button {
-    background-color: red;
+header div button {
+    background-color: rgb(229,9,20);
     color: white;
-    padding: 8px 15px;
+    padding: 4px 15px;
     border: none;
     border-radius: 5px;
+    font-size: 16px;
 }
-nav div select {
+header div select {
     background-color: rgba(0, 0, 0, 0.568);
-    padding: 7px 15px;
+    padding: 4px 15px;
     border-radius: 5px;
     color: white;
+    width: 100px;
 }
-option {
+/* option {
     padding: 15px;
-}
+} */
 
 
 /* main */
@@ -75,7 +81,7 @@ option {
 
 /* section */
 .medio-camino{
-    width: 60%;
+    width: 50%;
     z-index: 200;
 }
 .div-titulos{
@@ -83,7 +89,7 @@ option {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    gap: 20px;
+    gap: 10px;
 }
 .Titulo{
     font-size: 4rem;
@@ -105,6 +111,8 @@ option {
 }
 .parrafo-ingreso{
     text-align: center;
+    font-weight: 10;
+    font-size: 18px;
 }
 
 
@@ -122,7 +130,7 @@ input{
     border-width: 1px;
     padding-left: 15px;
     color: white;
-    width: 450px;
+    width: 350px;
     height: 50px;
 }
 
@@ -133,11 +141,11 @@ input{
     align-items: center;
     font-size: 1.5rem;
     color: white;
-    width: 180px;
+    width: 190px;
     height: 50px;
     border: none;
     border-radius: 5px;
-    background-color: red;
+    background-color: rgb(229,9,20);
 }
 .svg{
     color: white;
